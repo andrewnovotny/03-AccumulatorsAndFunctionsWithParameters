@@ -60,7 +60,7 @@ def sum_cosines(n):
     for k in range(n + 1):
         total = total + math.cos(k)
     return total
-    # ------------------------------------------------------------------
+    # ------------------- -----------------------------------------------
     # DONE: 3. Implement and test this function.
     #   Note that you should write its TEST function first (above).
     #   That is called TEST-DRIVEN DEVELOPMENT (TDD).
