@@ -104,18 +104,7 @@ def run_test_better_draw_circles():
 
 
 def better_draw_circles(n):
-    """
-    -- Constructs a window whose width and height are both 400.
-    -- Constructs and draws 21 rg.Circle objects such that:
-         -- Each is centered at (200, 200)
-         -- They have radii:  0  10  20  30  40 ... 200, respectively.
-         -- Pauses 0.05 seconds after rendering each.
-    -- Waits for the user to press the mouse, then closes the window.
-    """
-    # ------------------------------------------------------------------
-    # Students:
-    #   Do NOT touch this function - it has no TO DO in it.
-    # ------------------------------------------------------------------
+
     window = rg.RoseWindow(400, 400)
 
     center = rg.Point(200, 200)
@@ -128,7 +117,7 @@ def better_draw_circles(n):
 
 
 # ----------------------------------------------------------------------
-# TODO: 3.
+# DONE: 3.
 #   In the previous exercise, you made a MORE POWERFUL version
 #   of draw_circles by introducing a PARAMETER for the amount by
 #   which the radii of the concentric circles increase.
