@@ -131,7 +131,8 @@ def sum_powers_in_range(m, n, p):
     """
     total = 0
     for k in range(n):
-        total = total + (m + k) ** p
+        if m + k <= n:
+            total = total + (m + k) ** p
     return total
     # ------------------------------------------------------------------
     # TODO: 5. Implement and test this function.
