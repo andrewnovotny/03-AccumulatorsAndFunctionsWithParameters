@@ -8,6 +8,7 @@ Authors: David Mutchler, Valerie Galluzzi, Mark Hays, Amanda Stouder,
 """  # DONE: 1. PUT YOUR NAME IN THE ABOVE LINE.
 import math
 
+
 def main():
     """ Calls the   TEST   functions in this module. """
     run_test_sum_cosines()
@@ -45,6 +46,7 @@ def run_test_sum_cosines():
     answer = sum_cosines(10)
     print('Test 1 expected:', expected)
     print('       actual:  ', answer)
+
 
 def sum_cosines(n):
     """
@@ -101,6 +103,7 @@ def run_test_sum_square_roots():
     answer = sum_square_roots(2)
     print('Test 3 expected:', expected)
     print('       actual:  ', answer)
+
 
 def sum_square_roots(n):
     """

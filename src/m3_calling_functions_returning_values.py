@@ -80,7 +80,7 @@ def run_test_sum_of_digits():
     print('       actual:  ', answer)
 
     # Test 3
-    expected  = 13
+    expected = 13
     answer = sum_of_digits(760)
     print('Test 3 expected:', expected)
     print('       actual:  ', answer)
@@ -158,17 +158,18 @@ def run_test_digits_in_cube():
     print('Test 1 expected:', expected)
     print('       actual:  ', answer)
 
-    #Test 2
+    # Test 2
     expected = 18
     answer = digits_in_cube(21)
     print('Test 2 expected:', expected)
     print('       actual:  ', answer)
 
-    #Test 3
+    # Test 3
     expected = 36
     answer = digits_in_cube(99)
     print('Test 3 expected:', expected)
     print('       actual:  ', answer)
+
 
 def digits_in_cube(n):
     """
@@ -208,23 +209,25 @@ def run_test_digits_in_power():
     print('--------------------------------------------------')
     print('Testing the   digits_in_power   function:')
     print('--------------------------------------------------')
-    #Test 1
+    # Test 1
     expected = 19
-    answer = digits_in_power(8,4)
+    answer = digits_in_power(8, 4)
     print('Test 1 expected:', expected)
     print('       actual:  ', answer)
 
-    #Test 2
+    # Test 2
     expected = 11
-    answer = digits_in_power(5,5)
+    answer = digits_in_power(5, 5)
     print('Test 2 expected:', expected)
     print('       actual:  ', answer)
 
-    #Test 3
+    # Test 3
     expected = 35
-    answer = digits_in_power(53,3)
+    answer = digits_in_power(53, 3)
     print('Test 3 expected:', expected)
     print('       actual:  ', answer)
+
+
 def digits_in_power(n, k):
     """
     What comes in:  Two positive integers, n and k.
@@ -265,19 +268,19 @@ def run_test_fancy_sums_of_digits():
     print('Testing the   fancy_sums_of_digits   function:')
     print('--------------------------------------------------')
 
-    #Test 1
+    # Test 1
     expected = 1
     answer = fancy_sums_of_digits(10)
     print('Test 1 expected:', expected)
     print('       actual:  ', answer)
 
-    #Test 2
+    # Test 2
     expected = 19084
     answer = fancy_sums_of_digits(2)
     print('Test 2 expected:', expected)
     print('       actual:  ', answer)
 
-    #Test 3
+    # Test 3
     expected = 124309
     answer = fancy_sums_of_digits(35)
     print('Test 3 expected:', expected)

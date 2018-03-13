@@ -31,7 +31,7 @@ def run_test_draw_circles():
     """ Tests the   draw_circles   function. """
     # ------------------------------------------------------------------
     # Students:
-    #   Do NOT touch this function - it has no TODO in it.
+    #   Do NOT touch this function - it has no DONE in it.
     # ------------------------------------------------------------------
     print()
     print('--------------------------------------------------')
@@ -92,6 +92,8 @@ def draw_circles():
 #   run_test_draw_circles  may get you started more quickly on your new
 #   better_draw_circles  and  run_test_better_draw_circles.
 # ----------------------------------------------------------------------
+
+
 def run_test_better_draw_circles():
     """ Tests the   draw_circles   function. """
     print()
@@ -152,13 +154,13 @@ def run_test_even_better_draw_circles():
     print('--------------------------------------------------')
     even_better_draw_circles(5, 20, .01)
     even_better_draw_circles(20, 5, .05)
-    even_better_draw_circles(10, 6,0.01)
+    even_better_draw_circles(10, 6, 0.01)
 
 
 def even_better_draw_circles(dr, n, s):
-    #dr is change in radius
-    #n is number drawn
-    #s is refresh rate
+    # dr is change in radius
+    # n is number drawn
+    # s is refresh rate
     window = rg.RoseWindow(400, 400)
 
     center = rg.Point(200, 200)
@@ -166,9 +168,10 @@ def even_better_draw_circles(dr, n, s):
         circle = rg.Circle(center, dr * k)
         circle.attach_to(window)
         window.render(s)  # Pauses for 0.05 seconds after rendering.
-
     window.close_on_mouse_click()
 # ----------------------------------------------------------------------
 # Calls  main  to start the ball rolling.
 # ----------------------------------------------------------------------
+
+
 main()
